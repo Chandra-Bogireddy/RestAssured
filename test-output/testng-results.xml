@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Get operation is successful]]>
+    </line>
+    <line>
+      <![CDATA[we are closing]]>
+    </line>
+    <line>
+      <![CDATA[post operation is successful :demo-repo-1002676340]]>
+    </line>
+    <line>
+      <![CDATA[patch operation is successful]]>
+    </line>
+    <line>
+      <![CDATA[delete operation is successful]]>
+    </line>
+    <line>
+      <![CDATA[we are closing]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-07T12:34:46 IST" name="Suite" finished-at="2022-11-07T12:34:53 IST" duration-ms="6978">
+    <groups>
+    </groups>
+    <test started-at="2022-11-07T12:34:46 IST" name="Test" finished-at="2022-11-07T12:34:53 IST" duration-ms="6978">
+      <class name="scripts.GetOperation">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.GetOperation@55536d9e]" started-at="2022-11-07T12:34:46 IST" name="openApp" finished-at="2022-11-07T12:34:47 IST" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc1()[pri:0, instance:scripts.GetOperation@55536d9e]" started-at="2022-11-07T12:34:47 IST" name="tc1" finished-at="2022-11-07T12:34:49 IST" duration-ms="1939" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Get operation is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.GetOperation@55536d9e]" started-at="2022-11-07T12:34:49 IST" name="closeApp" finished-at="2022-11-07T12:34:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[we are closing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- scripts.GetOperation -->
+      <class name="scripts.PostOperation">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.PostOperation@69997e9d]" started-at="2022-11-07T12:34:49 IST" name="openApp" finished-at="2022-11-07T12:34:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc2()[pri:0, instance:scripts.PostOperation@69997e9d]" started-at="2022-11-07T12:34:49 IST" name="tc2" finished-at="2022-11-07T12:34:53 IST" duration-ms="4392" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[post operation is successful :demo-repo-1002676340]]>
+            </line>
+            <line>
+              <![CDATA[patch operation is successful]]>
+            </line>
+            <line>
+              <![CDATA[delete operation is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.PostOperation@69997e9d]" started-at="2022-11-07T12:34:53 IST" name="closeApp" finished-at="2022-11-07T12:34:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[we are closing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- scripts.PostOperation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
